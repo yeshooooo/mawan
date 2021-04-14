@@ -160,10 +160,10 @@ def JudgeIfPointRepeat(path_read,path_write):
 
 
 if __name__ == '__main__':
-    dic1 = r"E:\work\2021.3\数据\MDT11\MDT11\\"
-    dic2 = r"E:\work\2021.3\数据\MDT11\NRMDT11\\"
+    dic1 = r"E:\work\2021.4\mawanmodel\MD12\MD12\\"
+    dic2 = r"E:\work\2021.4\mawanmodel\MD12\NPMD12\\"
     ######批处理
-    for i in range(0,23):
+    for i in range(0,24):
         path1 = dic1 + '{}.dat'.format(i)
         path2 = dic2 + '{}.dat'.format(i)
         JudgeIfPointRepeat(path1,path2)
